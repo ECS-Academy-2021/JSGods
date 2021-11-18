@@ -1,8 +1,7 @@
-FROM node:latest
+FROM node:16
 WORKDIR /app
 COPY package*.json ./
 RUN npm i
-COPY . .
+COPY app.css app.js ./
 EXPOSE 3000
 ENTRYPOINT [ "node", "app.js" ]
-CMD [ "--help" ]
