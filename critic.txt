@@ -1,0 +1,10 @@
+1. Tidy up code snippets/ separated
+2. Put git clone/ cd command into snippets
+3. better organise readme, use headings
+
+```
+git clone https://github.com/ECS-Academy-2021/JSGods.git
+cd JSGods
+npm init
+npm i 
+```

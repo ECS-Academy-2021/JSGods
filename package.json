@@ -1,7 +1,7 @@
 {
   "name": "dockerapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "created app.js / README",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ECS-Academy-2021/JSGods.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ECS-Academy-2021/JSGods/issues"
+  },
+  "homepage": "https://github.com/ECS-Academy-2021/JSGods#readme"
 }
