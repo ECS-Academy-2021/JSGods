@@ -1,25 +1,14 @@
 # JS Gods
 
-created app.js / README
+## !! DOWNLOAD DOCKER BEFORE RUNNING !!
 
-``
-npm init
-``
+### Running the application using Docker:
 
-``
-npm i express
-``
-``
-npm i nodemon
-``
+```bash
+git clone https://github.com/ECS-Academy-2021/JSGods.git
+cd JSGods
+docker build -t jsgods .
+docker run -p 3000:3000 -d jsgods
+```
 
-import express to app 
-
-listen on port 3000
-
-run nodemon to start app
-
-go to localhost:3000 on browser 
-
-
-
+Go to localhost:3000 in your browser to view website.
